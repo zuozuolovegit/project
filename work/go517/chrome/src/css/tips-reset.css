@@ -1,0 +1,16 @@
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+	margin: 0;
+}
+li{list-style-type:none}
+/*a{text-decoration:none;}*/
+
+/*body{font-family:12px/1.5 arial,'Hiragino Sans GB','\5FAE\8F6F\96C5\9ED1',sans-serif;}//聚美字体*/
+body{12px/1.5 tahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;}//唯品会字体
+img{border: 0;}
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.clear{clear:both;}

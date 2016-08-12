@@ -1,0 +1,36 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icons/19x19.png", 
+      "default_popup": "popup.html",
+      "default_title": "go517"
+   },
+   "content_scripts": [ {
+      "js": [ "js/effect/request.js","js/import/ejs.js","js/import/require-min.js","js/common/cmnUtils.js","contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://op.juhe.cn https://txz.365tianxingzuo.com/hoffman/hoffman.do https://hydra.365tianxingzuo.com/third/constellation.do https://hydra.365tianxingzuo.com/clt/jbrowser.do; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/icons/128x128.png",
+      "16": "img/icons/16x16.png",
+      "48": "img/icons/48x48.png"
+   },
+   "commands":{
+      "_execute_browser_action":{
+         "suggested_key":{
+            "default":"Alt+G"
+         }
+      }
+   },
+   "incognito": "split",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "<all_urls>", "nativeMessaging","tabs", "notifications", "webNavigation", "webRequest", "webRequestBlocking", "contentSettings" ,"cookies"],
+   "version": "1.0.3",
+   "web_accessible_resources": [ "/*" ]
+}

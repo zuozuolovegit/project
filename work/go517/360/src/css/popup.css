@@ -1,0 +1,15 @@
+#plugin-go517-popup{width:470px;height:380px;background-color:#FFF;box-sizing:border-box;padding:15px;/*border:solid #000 1px;*/margin-left:auto;margin-right:auto;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-left{float:left;height:115px;width:100px;text-align:center;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-right{float:left;margin-top:20px;margin-left:20px;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-right .go517-popup-usermessage-right-load a input{width:300px;height:40px;color:#FA574F;border:solid #FA574F 2px;background-color:#FFF;font-size:16px;font-weight:bold;border-radius:2px;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-right .go517-popup-usermessage-right-load a input:hover{cursor:pointer;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-right .go517-popup-usermessage-right-account{width:300px;margin-top:20px;}
+#plugin-go517-popup .go517-popup-usermessage .go517-popup-usermessage-right .go517-popup-usermessage-right-account ul li{float:left;margin-left:16px;}
+#plugin-go517-popup .go517-popup-content{width:430px;height:210px;border:solid #CCC 1px;margin-top:15px;box-sizing:padding-box;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-title{float:left;height:210px;width:42px;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-title ul{float:left;box-sizing:border-box;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-title ul li{display:block;width:42px;height:70px;color:#666666;background-color:#FFF7F6;line-height:70px;text-align:center;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-title ul .active{background-color:#FA574F;color:#FFF;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-title ul li span{display:inline;font-size:14px;vertical-align:middle;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-detail{float:left;height:210px;width:380px;box-sizing:border-box;padding:0 10px;}
+#plugin-go517-popup .go517-popup-content .go517-popup-content-detail p{font-size:14px;}
